@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\_Astitva_Aryan_\OneDrive\Desktop\node-based-image-processor\build\CMakeFiles\d535154cf56832ef021322a7b90774c2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C90CA406-09DA-3319-8EDE-4D1B2C857834}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

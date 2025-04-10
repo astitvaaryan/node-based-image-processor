@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build with MSVC and OpenCV",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/k",
+        "\"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cl /EHsc main.cpp /I C:\\Users\\_Astitva_Aryan_\\Downloads\\opencv\\build\\include /link /LIBPATH:C:\\Users\\_Astitva_Aryan_\\Downloads\\opencv\\build\\x64\\vc16\\lib opencv_world4110.lib\""
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$msCompile"],
+      "detail": "Compile with MSVC and OpenCV"
+    }
+  ]
+}
