@@ -1,0 +1,6 @@
+-IC:/Users/_Astitva_Aryan_/Downloads/opencv/build/include
+-DWIN32
+--compiler-flavor=msvc
+-o
+C:/Users/_Astitva_Aryan_/OneDrive/Desktop/node-based-image-processor/build/include/moc_MainWindow.cpp
+C:/Users/_Astitva_Aryan_/OneDrive/Desktop/node-based-image-processor/include/MainWindow.hpp
