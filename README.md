@@ -35,6 +35,28 @@ Useful for prototyping, educational demonstrations, and building extensible visu
 - CMake (recommended)
 - OpenCV (for image operations)
 
+
+## 🔧 Future Improvements
+
+- 💾 **Save/Load Graphs to/from JSON**  
+  Allow users to export their node pipeline and reload it later for continued editing.
+
+- 🧠 **Graph Architecture Visualization Enhancements**  
+  Improve the layout and aesthetics of the graph-based interface using automatic node arrangement and zoom/pan capabilities.
+
+- 🔗 **Edge Rendering & Connection Logic**  
+  Enhance visual connections between nodes with curved edges, interactive linking, and real-time visual feedback on valid/invalid connections.
+
+- 🧩 **Add More Node Types**  
+  Expand available operations (e.g., sharpening, dilation, morphological transformations, contrast adjustment).
+
+- 🛠️ **User-Defined Custom Nodes**  
+  Allow users to define and register their own image processing functions via a scripting interface or plugin system.
+
+- 🔌 **Plugin-Based Architecture**  
+  Modularize node creation and allow external plugins to contribute new node types or processing engines.
+
+
 ### 🧑‍💻 Clone the repo
 ```bash
 git clone https://github.com/astitvaaryan/node-based-image-processor.git
