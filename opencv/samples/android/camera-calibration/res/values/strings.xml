@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <resources>
 
     <string name="app_name">OCV Camera Calibration</string>
+=======
+<resources>
+
+    <string name="app_name">OCV Camera Calibration</string>
+>>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3
     <string name="action_calibrate">Calibrate</string>
     <string name="calibration">Calibration</string>
     <string name="undistortion">Undistortion</string>
@@ -13,6 +19,12 @@
     <string name="calibrating">Calibrating...</string>
     <string name="please_wait">Please, wait</string>
     <string name="original">Original</string>
+<<<<<<< HEAD
     <string name="undistorted">Undistorted</string>
 
 </resources>
+=======
+    <string name="undistorted">Undistorted</string>
+
+</resources>
+>>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3

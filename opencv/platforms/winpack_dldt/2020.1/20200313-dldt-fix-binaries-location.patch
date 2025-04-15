@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 diff --git a/cmake/developer_package.cmake b/cmake/developer_package.cmake
 index e59edb2..e42ac19 100644
 --- a/cmake/developer_package.cmake
@@ -11,3 +12,18 @@ index e59edb2..e42ac19 100644
  
  # Enable postfixes for Debug/Release builds
  set(IE_DEBUG_POSTFIX_WIN "d")
+=======
+diff --git a/cmake/developer_package.cmake b/cmake/developer_package.cmake
+index e59edb2..e42ac19 100644
+--- a/cmake/developer_package.cmake
++++ b/cmake/developer_package.cmake
+@@ -99,7 +99,7 @@ if(UNIX)
+     SET(LIB_DL ${CMAKE_DL_LIBS})
+ endif()
+ 
+-set(OUTPUT_ROOT ${OpenVINO_MAIN_SOURCE_DIR})
++set(OUTPUT_ROOT ${CMAKE_BINARY_DIR})
+ 
+ # Enable postfixes for Debug/Release builds
+ set(IE_DEBUG_POSTFIX_WIN "d")
+>>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3

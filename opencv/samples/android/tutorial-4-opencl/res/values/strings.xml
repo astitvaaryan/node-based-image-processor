@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <resources>
 
     <string name="app_name">OpenCV Tutorial 4 - Use OpenCL</string>
 
 </resources>
+=======
+<resources>
+
+    <string name="app_name">OpenCV Tutorial 4 - Use OpenCL</string>
+
+</resources>
+>>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3

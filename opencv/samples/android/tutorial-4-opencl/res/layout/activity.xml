@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -24,3 +25,31 @@
 	    </LinearLayout>
 
 </FrameLayout>
+=======
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.opencv.samples.tutorial4.MyGLSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/my_gl_surface_view" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation = "vertical" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/fps_text_view"
+	        android:text="FPS:" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proc_mode_text_view"
+            android:text="Processing mode:" />
+	    </LinearLayout>
+
+</FrameLayout>
+>>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3

@@ -1,6 +1,11 @@
 #ifndef NODE_HPP
 #define NODE_HPP
+<<<<<<< HEAD
 #include "opencv2/opencv.hpp"
+=======
+
+#include <opencv2/opencv.hpp>
+>>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3
 #include <string>
 #include <vector>
 
