@@ -1,3 +1,0 @@
-C:/Users/_Astitva_Aryan_/OneDrive/Desktop/node-based-image-processor/build/CMakeFiles/NodeBasedImageProcessor.dir
-C:/Users/_Astitva_Aryan_/OneDrive/Desktop/node-based-image-processor/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/_Astitva_Aryan_/OneDrive/Desktop/node-based-image-processor/build/CMakeFiles/ZERO_CHECK.dir
