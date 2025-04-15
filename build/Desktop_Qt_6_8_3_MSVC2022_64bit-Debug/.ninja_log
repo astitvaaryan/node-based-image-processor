@@ -1,0 +1,7 @@
+# ninja log v6
+18	392	7663961456482916	include/moc_MainWindow.cpp	6ffa635df6ea5a08
+85	9206	7663976584134384	CMakeFiles/NodeBasedImageProcessor.dir/include/moc_MainWindow.cpp.obj	5e0cc5c1cc1b6f52
+18	392	7663961456482916	C:/Users/_Astitva_Aryan_/OneDrive/Desktop/node-based-image-processor/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debug/include/moc_MainWindow.cpp	6ffa635df6ea5a08
+26	9235	7663976583124349	CMakeFiles/NodeBasedImageProcessor.dir/main.cpp.obj	3d1e551e0509b9bf
+35	6922	7663978945904022	CMakeFiles/NodeBasedImageProcessor.dir/MainWindow.cpp.obj	449016ee8c8d9ca8
+6927	7706	7663979014827971	NodeBasedImageProcessor.exe	23fed3fc802a3872

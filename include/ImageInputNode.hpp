@@ -5,7 +5,6 @@
 
 class ImageInputNode : public Node {
 public:
-<<<<<<< HEAD
     // Constructor using file path
     ImageInputNode(const std::string& filePath) : filePath(filePath), useFile(true) {}
 
@@ -36,23 +35,6 @@ public:
 
         std::cout << "Dimensions: " << input.size() << std::endl;
         std::cout << "Channels: " << input.channels() << std::endl;
-=======
-    ImageInputNode(const std::string& filePath) : filePath(filePath) {}
-
-    cv::Mat process() override {
-        input = cv::imread(filePath, cv::IMREAD_COLOR);
-        if (input.empty()) {
-            throw std::runtime_error("Could not open or find the image!");
-        }
-        std::cout << "Image loaded: " << filePath << std::endl;
-        std::cout << "Dimensions: " << input.size() << std::endl;
-        std::cout << "Channels: " << input.channels() << std::endl;
-
-        // Pass the output to the next node
-        // for (Node* nextNode : nextNodes) {
-        //     nextNode->setInput(input);
-        //     nextNode->process();
-        // }
 
         for (Node* nextNode : nextNodes) {
             std::cout << "Passing image to next node..." << std::endl;
@@ -66,16 +48,14 @@ public:
             }
         }
 
->>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3
         return input;
     }
 
 private:
     std::string filePath;
-<<<<<<< HEAD
+
     bool useFile;
-=======
->>>>>>> d1f3d5db0ced0e590ff9ead9b06dfe6e98239dd3
+
 };
 
 #endif // IMAGEINPUTNODE_HPP
